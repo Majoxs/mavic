@@ -49,6 +49,15 @@
       & + .menu__list-item {
          padding-left: 20px;
       }
+      &.active a {
+         color: tomato;
+      }
+   }
+   &__list-phone {
+      display: none;
+   }
+   &__btn {
+      display: none;
    }
 }
 
@@ -162,7 +171,7 @@
    right: 0;
    cursor: pointer;
    z-index: 5;
-   bottom: -45px;
+   bottom: -48px;
    svg {
       stroke: #000;
    }
